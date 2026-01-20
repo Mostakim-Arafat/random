@@ -2,11 +2,34 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
 }
+/*shared style*/
+.headfont{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.parafont{
+    font-size: 18px;
+    font-weight: 500;
+    color:424242;
+}
+
+
+/* ends*/
+*{
+    margin: 0px;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    /* overflow: hidden; same work as padding do*/
+    padding-top: 50px;
+}
 nav{
     display: flex;
     justify-content: space-between;
     max-width: 1452px;
     margin:0 auto;
+    align-items: center;
 }
 nav .menu ul{
     display: flex;
