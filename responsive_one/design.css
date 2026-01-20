@@ -4,36 +4,95 @@
 }
 /*shared style*/
 .headfont{
-    font-size: 45px;
+    /* font-size:  2.8rem; */
     font-weight: bold;
     color: #131313;
 }
 .parafont{
-    font-size: 18px;
+    font-size:1.1rem;
     font-weight: 500;
-    color:424242;
+    /* color:424242; */
 }
+.regular{
+    font-size: 1 rem;
+    color: #727272;
 
+}
+.semibold{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.btn{
+    background-color: #FF900E;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    padding: 21px 24px 20px 25px;
+}
 
 /* ends*/
 *{
     margin: 0px;
+    padding: 0px;
 }
 header{
     background-color: rgba(255, 144, 14, 0.1);
     /* overflow: hidden; same work as padding do*/
     padding-top: 50px;
+    margin: 0 auto;
+}
+nav,.banner{
+    max-width: 1140px;
+     margin:0 auto;
+}
+.logo h2{
+    font-size: 2.8rem;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1452px;
-    margin:0 auto;
     align-items: center;
+}
+.menu li{
+   color:#424242;
 }
 nav .menu ul{
     display: flex;
     text-decoration: none;
     list-style: none;
     gap:40px;
+}
+.banner-content{
+    max-width: 862px;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 6.4rem;
+}
+.banner p{
+    color:#000000;
+}
+.ban-img img{
+     width: 100%;
+}
+.banner h1{
+    font-size: 4.1rem;
+    padding-bottom: 20px;
+}
+.ban-btn{
+    margin-top:2rem;
+    margin-bottom: 3.1rem;
+}
+
+/*small device*/
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        gap:20px;
+        flex-wrap: wrap;
+    }
+
 }
