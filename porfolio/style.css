@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*shared style*/
+.hide{
+    display: none !important;
+}
+.text-center{
+    text-align: center;
+}
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.logo-color{
+    color: #FD6E0A;
+}
+.button{
+     padding: 18px 35px;
+     color:white;
+     border:none;
+     border-radius:5px;
+     background-color: #FD6E0A;
+     font-weight: bold;
+     font-size: 20px;
+     cursor:pointer;
+}
+
+.section-head{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-para{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*main style*/
+
+header{
+    background-color: #FFF8F3;
+    padding-top: 49px;
+    background: url(../../image/hero-dev-portfolio-resources/images/developer.png),url(../../image/hero-dev-portfolio-resources/images/header_bg.png),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px,bottom right;
+}
+nav {
+    max-width: 1140px;
+    width: 71%;
+    display: flex;
+    /* border: 2px solid red; */
+    padding-top: 49px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 900;
+}
+nav ul{
+    display: flex;
+    gap:53px;
+    list-style-type: none;
+    align-items: center;
+    font-size: 20px;
+}
+nav ul a {
+    text-decoration: none;
+    color: #474747;
+}
+#banner{
+    max-width: 1334px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 47px 38px 0px 230px;
+}
+#banner .content{
+    max-width: 585px;
+}
+#banner .content h3{
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#banner .content h1{
+    color:black;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .content p{
+    max-width: 585px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#banner .img img{
+    max-width: 584px;
+    vertical-align:middle;
+}
+.btn-group{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+#about,#skill,#resume{
+      padding-top: 130px;
+}
+#about .about-container{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+#about .about-container h3{
+      margin-bottom: 30px;
+
+}
+#about .about-container .section-para {
+     margin-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+
+}
+.card p{
+    font-size: 20px;
+    color:#757575;
+}
+
+#skill .skill-contain{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skill .skill-contain h3{
+    margin-bottom: 30px;
+}
+#skill .skill-contain p{
+    margin-bottom: 50px;
+    max-width: 827px;
+    justify-content: center;
+}
+.card-contain{
+    display: flex;
+    gap:24px
+
+
+}
+.card-contain .skill-card{
+    box-shadow: 0px 6px 50px 0 #00000028;
+    max-width: 267px;
+    padding: 30px;
+    height: 377px;
+}
+.skill-card img{
+    padding-bottom: 30px;
+}
+.skill-card p {
+    padding-bottom: 20px;
+     font-size: 16px;
+    color:#757575;
+    line-height: 30px;
+}
+
+
+.divmerge{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    padding-top: 113px;
+}
+.resum-card{
+    max-width: 511px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 47px;
+}
+.education h3{
+     padding-bottom: 20px;
+}
+.resum-card h4{
+     padding-bottom: 10px;
+     font-size: 25px;
+     font-weight: bold;
+}
+.resum-card h5{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#474747
+}
+.resum-card p{
+      font-size: 16px;
+    color:#757575;
+}
+#last{
+  background-color: #FFF8F3;
+  margin-top: 113px;
+   padding: 130px 0px;
+}
+.footers{
+   margin: 0 auto;
+   /* border:3px red solid; */
+    max-width: 1140px;
+    display: flex;
+    gap:117px;
+}
+.connect{
+    max-width: 562px;
+}
+.connect p{
+    color:#474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footers h2{
+    font-size: 35px;
+    color:#181818;
+    margin-bottom: 24px;
+}
+.social-img img{
+    margin-right: 24px;
+}
+.footers .form{
+    max-width: 461px;
+}
+.footers .form input[type="text"],
+.footers .form textarea{
+    border:none;
+    border-radius: 5px;
+    padding: 18px 349px 18px 30px ;
+    max-width: 461px;
+    margin-bottom: 24px;
+    color:#757575
+}
+
+@media screen and (max-width:576px) {
+    #about,#skill,#resume{
+      padding-top: 60px;
+}
+   #skill .skill-contain{
+   width: 95%;
+}
+.section-head {
+    font-size: 25px;
+}
+.card-contain,.card,.footers,.divmerge,nav,#banner{
+    flex-direction: column;
+}
+.card-contain .skill-card{
+    max-width: 100%;
+}
+#about .about-container{
+    padding:20px;
+}
+.card{
+    gap:40px;
+}
+.footers,.connect{
+    max-width: 100%;
+}
+
+.option {
+ width:100%; 
+ }
+ .option textarea{
+    width: 100%;
+ }
+ .divmerge{
+    padding-top: 60px;
+ }
+ .resum-card{
+    margin-right: 10px;
+ }
+ nav{
+    gap: 20px;
+ }
+ nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ #banner{
+    margin: 20px;
+ }
+ #banner .img img{
+    width: 100%;
+ }
+ #banner .content{
+    width: 100%;
+    text-align: center;
+ }
+ #banner .content h1{
+    font-size: 50px;
+ }
+ .btn-group{
+    justify-content: center;
+ }
+header {
+    background: url(../../image/hero-dev-portfolio-resources/images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.footers .form input[type="text"], .footers .form textarea {
+   width: 100%;
+}
+}
+  
