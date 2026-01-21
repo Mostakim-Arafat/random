@@ -85,7 +85,29 @@ nav .menu ul{
     margin-top:2rem;
     margin-bottom: 3.1rem;
 }
-
+.feat{
+    display:flex;
+    gap:73px;
+    padding-top: 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.feat-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+    max-width: 708px;
+}
+.feat-img img{
+    width: 100%;
+}
+.feat-content>*{
+    margin-bottom: 30px;
+}
+.feat-content{
+    max-width: 537px;
+}
 /*small device*/
 
 @media screen and (max-width:576px) {
