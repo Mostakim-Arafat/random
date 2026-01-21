@@ -85,12 +85,14 @@ nav .menu ul{
     margin-top:2rem;
     margin-bottom: 3.1rem;
 }
+.feat,.facts{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .feat{
     display:flex;
     gap:73px;
     padding-top: 130px;
-    max-width: 1440px;
-    margin: 0 auto;
     align-items: center;
 }
 .feat-img{
@@ -101,12 +103,26 @@ nav .menu ul{
 }
 .feat-img img{
     width: 100%;
+    filter: grayscale(100%);
 }
 .feat-content>*{
     margin-bottom: 30px;
 }
 .feat-content{
     max-width: 537px;
+}
+.container{
+    display: flex;
+    gap:124px;
+}
+.card{
+    border: 1px #FF900E solid;
+    border-radius: 8px;
+    padding:35px;
+    text-align: center;
+}
+.facts{
+    margin-top: 135px;
 }
 /*small device*/
 
